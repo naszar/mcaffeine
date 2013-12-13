@@ -1,0 +1,15 @@
+Just because new version of caffeine (https://launchpad.net/caffeine) don't work for me.
+Icons from caffeine is used.
+To install:
+
+$ sudo cp caffeine-cup-full.svg /usr/share/icons/hicolor/scalable/status/caffeine-cup-full.svg
+$ sudo cp caffeine-cup-empty.svg /usr/share/icons/hicolor/scalable/status/caffeine-cup-empty.svg
+$ sudo cp mcaffeine.py /usr/bin/mcaffeine
+$ chmod +x /usr/bin/mcaffeine
+
+script just run 
+	xset dpms 0 0 0
+or
+	xset dmps 0 0 200
+when user click icon in system tray.
+but you can add your own commands.
