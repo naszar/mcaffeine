@@ -1,0 +1,4 @@
+Simple script for sending files to Yandex Disk.
+Need token to authorization (http://api.yandex.ru/disk/api/concepts/quickstart.xml) OAUTH_TOKEN = <token> 
+Use REST API (http://api.yandex.ru/disk/api/reference/upload.xml)
+Just add token and run ./put.py <file> 
